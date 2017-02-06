@@ -1,4 +1,104 @@
 body {
-background: blue;
-margin: 0;
+  margin: 0;
+  background: #50b4df;
+  font-family: sans-serif;
 }
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.banner {
+  padding: 1rem;
+  background: #2c73fc;
+  color: white;
+}
+
+.banner__navbar {}
+
+.navbar {
+  overflow: auto;
+}
+
+.navbar__group {
+  overflow: auto;
+}
+
+.navbar__group--left {
+  float: left;
+}
+
+.logo {
+  background: orange;
+}
+
+.navbar__group--right {
+  float: right;
+  background: orange;
+  display: inline-block;
+}
+
+.nav-list {
+  overflow: auto;
+}
+
+.nav-list__item {
+  float: left;
+  margin: 0.5rem;
+}
+
+.section {
+  padding: 1rem;
+}
+
+.container {
+  max-width: 65rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: flex;
+ flex-wrap: wrap;
+}
+
+.grid__item {
+background: green;
+margin: 1rem;
+flex-basis: calc(100% / 4 - 2rem); /*makes it so all of them stay the same size*/
+flex-grow: 1;
+}
+
+.card {
+position: relative; /*this made it so the card tag attached to the card instead of to the viewport*/
+
+padding: 1rem;
+min-width: 14rem;
+}
+
+.top-part {
+
+}
+
+.yellow {
+  background: goldenrod;
+}
+
+.week__tag {
+  background: purple;
+}
+
+.card__pic {
+  max-height: 3rem;
+  border-radius: 50%;
+}
+
+.card_bottom {}
