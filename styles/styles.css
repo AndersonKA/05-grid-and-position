@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  background: #50b4df;
   font-family: sans-serif;
 }
 
@@ -38,12 +37,12 @@ img {
 }
 
 .logo {
-  background: orange;
+
 }
 
 .navbar__group--right {
   float: right;
-  background: orange;
+
   display: inline-block;
 }
 
@@ -71,7 +70,6 @@ img {
 }
 
 .grid__item {
-background: green;
 margin: 1rem;
 flex-basis: calc(100% / 4 - 2rem);
 flex-grow: 1;
@@ -79,13 +77,13 @@ flex-grow: 1;
 
 .card {
 position: relative;
-
 min-width: 14rem;
 border: 0.25px solid #b3bbbd;
+box-shadow: 0.05rem 0.05rem #8e9696;
 }
 
 .top-part {
-
+  position: relative;
 }
 
 .yellow {
@@ -96,23 +94,27 @@ border: 0.25px solid #b3bbbd;
 }
 
 .week-tag {
-  background: blue;
-  padding: 1rem;
+  background: #2c73fc;
+  color: white;
+  padding: 0.5rem;
   position: absolute;
-  margin: -1.5rem;
-  top: 0;
+  margin: 0;
+  top: -1rem;
   left: 50%;
+  transform: translateX(-50%);
 }
 
 .card__pic {
-  max-height: 3rem;
+  max-height: 2rem;
   border-radius: 50%;
   position: absolute;
   margin: 0;
-  top: 0;
-
+  left: -1rem;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
-.card_bottom {
-  margin: 2rem;
+.card-bottom {
+  margin: 1rem;
+
 }
